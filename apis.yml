@@ -1,22 +1,67 @@
 aid: e-pal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/e-pal.png
 name: E-Pal
-description: E-Pal is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  E-Pal is a gaming social platform with the tagline "Never Battle Alone" that
+  connects gamers to find teammates, compete, and socialize around competitive
+  and casual gaming experiences. Its mobile apps (iOS and Android) let users
+  discover gaming companions ("ePals"), form squads, use voice chat, play
+  minigames, and hang out in social spaces. Product surfaces include Games
+  (finding great teammates for titles like League of Legends and Valorant),
+  Chilling (social hangout spaces), and Custom personalized experiences, plus a
+  tiered community of eStars, Legend ePals (professional-rank players), and E-Chat.
+  E-Pal is a consumer application and does not publish a public developer API,
+  developer portal, or machine-readable API artifacts at this time; this profile
+  was surfaced as an a16z portfolio company and enriched as an identity-only lead.
 url: https://raw.githubusercontent.com/api-evangelist/e-pal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-app-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Gaming
+- Social
+- Community
+- Mobile App
+- Consumer
+- Voice Chat
+- Esports
 apis: []
+common:
+- type: Website
+  url: https://www.epal.gg/
+- type: SignUp
+  url: https://www.epal.gg/download
+- type: Support
+  url: https://discord.com/invite/epalgg
+- type: AppStore
+  url: https://apps.apple.com/app/id1515406923
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.epal.android
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
