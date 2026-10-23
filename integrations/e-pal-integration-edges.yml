@@ -28,6 +28,23 @@ edges:
     sector: Consumer;Seed
   detected_by: sweep-vc-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Discord (discord-app-directory)
+  partner: discord
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: discord-app-directory
+  evidence: https://discord.com/discovery/applications/1098516182404968458
+  mirror_of: discord/integrations/discord-integration-edges.yml
+  apps:
+  - ePal Finder
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Social, Games
 generated: '2026-10-21'
 method: searched
 source:
@@ -44,3 +61,4 @@ checked:
 - https://www.indexventures.com/companies/
 - https://www.sequoiacap.com/our-companies/
 - https://www.sequoiacap.com/sitemap.xml
+- discord/integrations/discord-integration-edges.yml

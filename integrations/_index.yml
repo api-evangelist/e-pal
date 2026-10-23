@@ -33,3 +33,16 @@
     sector: Consumer;Seed
   status: not-a-workflow
   arazzo: null
+- slug: e-pal-discord-discord-app-directory
+  label: Discord (discord-app-directory)
+  partner: discord
+  partner_name: Discord (discord-app-directory)
+  category: Social, Games
+  type: marketplace
+  marketplace: discord-app-directory
+  channel: partner-built
+  evidence: https://discord.com/discovery/applications/1098516182404968458
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
